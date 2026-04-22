@@ -4,118 +4,186 @@ import os
 from datetime import datetime
 
 
-# ─────────────────────────────────────────────
-# CONFIGURATION — add any header/footer phrases
-# you want removed (case-insensitive)
-# ─────────────────────────────────────────────
-HEADER_FOOTER_PATTERNS = [
-    r"tourism\s+data\s+inventory",
-    r"data\s+inventory",
-    r"tourism\s+inventory",
-    r"confidential",
-    r"draft",
-    r"all\s+rights\s+reserved",
-    r"table\s+of\s+contents",
-]
-
-# Standalone page number patterns, e.g.:  "Page 1", "Page 1 of 10", "1", "- 1 -"
-PAGE_NUMBER_PATTERNS = [
-    r"^\s*-?\s*page\s+\d+(\s+of\s+\d+)?\s*-?\s*$",   # Page 1 / Page 1 of 10
-    r"^\s*-\s*\d+\s*-\s*$",                            # - 1 -
-    r"^\s*\d+\s*$",                                     # lone digit(s)
-]
-
-
-def is_page_number(line: str) -> bool:
-    for pattern in PAGE_NUMBER_PATTERNS:
-        if re.match(pattern, line, re.IGNORECASE):
-            return True
-    return False
-
-
-def is_header_footer(line: str) -> bool:
-    for pattern in HEADER_FOOTER_PATTERNS:
-        if re.fullmatch(pattern, line.strip(), re.IGNORECASE):
-            return True
-        if re.search(pattern, line.strip(), re.IGNORECASE) and len(line.strip().split()) <= 6:
-            return True
-    return False
-
-
-def clean_lines(raw_text: str) -> list[str]:
-    """Remove empty lines, page numbers, and header/footer lines."""
+def remove_unwanted_lines(text: str) -> str:
+    """Remove page numbers, headers, and footers from the text."""
+    lines = text.splitlines()
     cleaned = []
-    for line in raw_text.splitlines():
-        stripped = line.strip()
-        if not stripped:
-            continue
-        if is_page_number(stripped):
-            continue
-        if is_header_footer(stripped):
-            continue
-        cleaned.append(stripped)
-    return cleaned
+    
+    patterns_to_skip = [
+        r"^TOURISM\s+DATA\s+INVENTORY\s*$",
+        r"^Page\s*\|\s*\d+\s*$",
+        r"^SL\s+No\.\s+District.*Contact\s+No\s*$",
+        r"^Total\s+Available\s+Room\s+\d+\s*$",
+    ]
+    
+    for line in lines:
+        skip = False
+        for pattern in patterns_to_skip:
+            if re.match(pattern, line.strip(), re.IGNORECASE):
+                skip = True
+                break
+        
+        if not skip and line.strip():
+            cleaned.append(line)
+    
+    return '\n'.join(cleaned)
 
 
-def save_csv(lines: list[str], output_path: str):
-    with open(output_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["line_number", "text"])          # header row
-        for i, line in enumerate(lines, start=1):
-            writer.writerow([i, line])
+def parse_row(line: str) -> dict:
+    """Parse a single data row using flexible splitting."""
+    # Remove extra spaces and split
+    parts = line.split()
+    
+    if len(parts) < 2:
+        return None
+    
+    # SL No is always first
+    sl_no = parts[0]
+    
+    # District is typically 2nd (next meaningful part)
+    # Names can have multiple words, locations can too
+    # Contact is usually last (all digits or in pattern)
+    # Category and Rooms are usually near end
+    
+    # Find contact number (usually all digits or pattern at end)
+    contact = ""
+    remainder = " ".join(parts[1:])
+    
+    # Extract last number-like token as contact
+    contact_match = re.search(r'(\d{7,}|\d{4}-\d{6}|0\d{10})\s*$', remainder)
+    if contact_match:
+        contact = contact_match.group(1)
+        remainder = remainder[:contact_match.start()].strip()
+    
+    # Extract rooms (usually a single number before contact)
+    rooms_match = re.search(r'\b(\d+)\s+(' + '|'.join(['Economy', '3 Star', '4 Star', '5 Star', 'Boutique', 'Residential']) + r')\s*$', remainder, re.IGNORECASE)
+    rooms = ""
+    category = ""
+    if rooms_match:
+        rooms = rooms_match.group(1)
+        category = rooms_match.group(2)
+        remainder = remainder[:rooms_match.start()].strip()
+    else:
+        # Try to find category alone
+        cat_match = re.search(r'\b(Economy|3 Star|4 Star|5 Star|Boutique|Residential)\s*$', remainder, re.IGNORECASE)
+        if cat_match:
+            category = cat_match.group(1)
+            remainder = remainder[:cat_match.start()].strip()
+    
+    # Now remainder has: district, facility name, and location
+    tokens = remainder.split()
+    if len(tokens) >= 3:
+        district = tokens[0]
+        # Last token(s) before category could be location or facility name
+        # This is tricky - we'll use a simple heuristic
+        facility_name = " ".join(tokens[1:-1]) if len(tokens) > 2 else tokens[1]
+        location = tokens[-1]
+    elif len(tokens) == 2:
+        district = tokens[0]
+        facility_name = tokens[1]
+        location = ""
+    else:
+        return None
+    
+    return {
+        'SL No': sl_no,
+        'District': district,
+        'Facility Name': facility_name,
+        'Location': location,
+        'Category': category if category else "Economy",
+        'Rooms': rooms,
+        'Contact': contact,
+    }
 
 
-def get_multiline_input() -> str:
-    print("=" * 60)
-    print("  Text Cleaner → CSV Converter")
-    print("=" * 60)
-    print("\nPaste your text below.")
-    print("When done, type  END  on a new line and press Enter.\n")
-
-    lines = []
-    while True:
-        try:
-            line = input()
-        except EOFError:
-            break
-        if line.strip().upper() == "END":
-            break
-        lines.append(line)
-
-    return "\n".join(lines)
+def convert_to_csv(input_text: str, output_file: str):
+    """Convert cleaned text to CSV."""
+    
+    # Clean the text
+    cleaned_text = remove_unwanted_lines(input_text)
+    
+    rows = []
+    for line in cleaned_text.splitlines():
+        if line.strip():
+            parsed = parse_row(line)
+            if parsed:
+                rows.append(parsed)
+    
+    if not rows:
+        print("❌ No valid rows found!")
+        return False
+    
+    # Write to CSV
+    try:
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['SL No', 'District', 'Facility Name', 'Location', 'Category', 'Rooms', 'Contact']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        
+        return True, rows
+    except Exception as e:
+        print(f"❌ Error writing CSV: {e}")
+        return False, None
 
 
 def main():
-    raw_text = get_multiline_input()
-
-    if not raw_text.strip():
-        print("\n⚠  No text entered. Exiting.")
+    print("=" * 75)
+    print("  TOURISM DATA CLEANER - CSV CONVERTER")
+    print("=" * 75)
+    print("\nChoose input method:")
+    print("  1. Paste text directly")
+    print("  2. Read from file")
+    
+    choice = input("\nEnter choice (1 or 2): ").strip()
+    
+    if choice == "2":
+        file_path = input("Enter file path: ").strip()
+        if not os.path.exists(file_path):
+            print(f"❌ File not found: {file_path}")
+            return
+        
+        with open(file_path, 'r', encoding='utf-8') as f:
+            input_text = f.read()
+    else:
+        print("\n📋 Paste your data (type END on new line when done):\n")
+        lines = []
+        while True:
+            try:
+                line = input()
+                if line.strip().upper() == "END":
+                    break
+                lines.append(line)
+            except EOFError:
+                break
+        input_text = "\n".join(lines)
+    
+    if not input_text.strip():
+        print("❌ No input provided")
         return
-
-    cleaned = clean_lines(raw_text)
-
-    if not cleaned:
-        print("\n⚠  No usable lines found after cleaning. Exiting.")
-        return
-
-    # Auto-generate output filename with timestamp
+    
+    # Create output file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f"cleaned_output_{timestamp}.csv"
-
-    save_csv(cleaned, output_file)
-
-    print(f"\n✅  Done!")
-    print(f"   Lines before cleaning : {len(raw_text.splitlines())}")
-    print(f"   Lines after cleaning  : {len(cleaned)}")
-    print(f"   CSV saved to          : {os.path.abspath(output_file)}\n")
-
-    # Preview first 5 rows
-    print("── Preview (first 5 rows) " + "─" * 33)
-    for i, line in enumerate(cleaned[:5], 1):
-        print(f"  {i:>3}. {line}")
-    if len(cleaned) > 5:
-        print(f"       ... and {len(cleaned) - 5} more rows.")
-    print("─" * 60)
+    output_file = f"tourism_data_{timestamp}.csv"
+    
+    print(f"\n🔄 Converting to CSV...")
+    result, rows = convert_to_csv(input_text, output_file)
+    
+    if result:
+        print(f"\n✅ Success!")
+        print(f"{'='*75}")
+        print(f"  📁 Output file: {os.path.abspath(output_file)}")
+        print(f"  📊 Total rows: {len(rows)}")
+        print(f"{'='*75}\n")
+        
+        print("📋 First 5 rows:\n")
+        for i, row in enumerate(rows[:5], 1):
+            print(f"{i}. {row['District']:12} | {row['Facility Name']:30} | {row['Rooms']:>3} rooms")
+        
+        if len(rows) > 5:
+            print(f"\n... and {len(rows) - 5} more rows\n")
+    else:
+        print("❌ Conversion failed")
 
 
 if __name__ == "__main__":

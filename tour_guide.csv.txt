@@ -1,0 +1,133 @@
+guide_id,name,district_id,contact,language_speciality
+1,Titu Ruram,2,,Bengali, English
+2,Barnish Ruram,2,,Bengali, English
+3,Mousumi Ruram,2,,Bengali, English
+4,Sayed Mahbubul Islam Bulu,14,,Bengali, English, Italian, Arabic, Hindi
+5,Md.Wahid Ullah,14,ullah.wahid@gmail.com,Bengali, English, Japanese
+6,Md.Abul Kalam Azad Milan,14,bdtravelhomes@gmail.com,Bengali, English, Japanese
+7,S.M.Hafizur Rahman Faruq,14,evergreen@hotmail.com,Bengali, English, Hindi
+8,Kazi Ziauddin Bappe,14,fourwheelsbd@gmail.com,Bengali, English
+9,Ashrafuzzaman Uzzal,14,bdtravelwriter@gmail.com,Bengali, English
+10,Syed Samit Mahbub,14,guide@tgab.org.bd,Bengali, English
+11,Md. Kausarul Huq Khan,14,kausarul.huq@gmail.com,Bengali, English
+12,Tanvir Ahmed,14,guide@tgab.org.bd,Bengali, English
+13,Borhan Uddin,14,guide@tgab.org.bd,Bengali, English
+14,Taslimamin Shovon,14,guide@tgab.org.bd,Bengali, English
+15,Syed Shafat Uddin Tomal,14,guide@tgab.org.bd,Bengali, English
+16,Takdin Abid Pony,14,guide@tgab.org.bd,Bengali, English
+17,Mahiuddin Helal,14,guide@tgab.org.bd,Bengali, English
+18,Rafiqul Islam Nasim,14,guide@tgab.org.bd,Bengali, English
+19,Nurani Sharmin Afroze,14,autarkytours@gmail.com,Bengali, English, Chinese, Hindi, Korean/Eco Tourism
+20,Md.Asduzzaman Prince,14,guide@tgab.org.bd,Bengali, English
+21,Faisal Alam Chowdhury Raju,14,guide@tgab.org.bd,Bengali, English
+22,Ibrahim Khalil,14,guide@tgab.org.bd,Bengali, English
+23,Abir Hossain,14,guide@tgab.org.bd,Bengali, English
+24,Md. Rafiqul Islam,14,guide@tgab.org.bd,Bengali, English
+25,Ms. AZMIRI RAHMAN LOTON,14,guide@tgab.org.bd,BENGALI, ENGLISH
+26,Md. Iqbal Hossain,14,iqbal.touristguide@gmail.com,Bengali, English
+27,Ms. SABIHA KHATUN,14,guide@tgab.org.bd,BENGALI, ENGLISH
+28,Md. Arifur Rahman,14,guide@tgab.org.bd,Bengali, English
+29,Md. Mehedi Hasan,14,guide@tgab.org.bd,Bengali, English
+30,Roni N Ahmed,14,guide@tgab.org.bd,Bengali, English
+31,Shaker Ahmed,14,guide@tgab.org.bd,Bengali, English
+32,Ms. SALMA AKTER,14,guide@tgab.org.bd,BENGALI, ENGLISH
+33,Mohammad Shahed Hasan,14,guide@tgab.org.bd,Bengali, English
+34,A.T.M. Sadequr Rahman,14,guide@tgab.org.bd,Bengali, English
+35,Md. Arifur Rahman,14,guide@tgab.org.bd,Bengali, English
+36,Liton Deb,14,guide@tgab.org.bd,Bengali, English
+37,Bashir Ahmed Helim,14,guide@tgab.org.bd,Bengali, English
+38,Emrul Hossain Emon,14,guide@tgab.org.bd,Bengali, English
+39,Md. Mohosin Iqbal,14,guide@tgab.org.bd,Bengali, English
+40,Md. Saiful Islam Bhwyan,14,guide@tgab.org.bd,Bengali, English
+41,Mohammad Alamin Khan Shishir,14,guide@tgab.org.bd,Bengali ,English
+42,Md. Sohel Mia,14,guide@tgab.org.bd,Bengali ,English
+43,Md. Fazlul Haque (Shaheen),14,guide@tgab.org.bd,Bengali ,English
+44,Md. Abdul Awal,14,guide@tgab.org.bd,Bengali ,English
+45,Md. Mizanur Rahman,14,,Bengali ,English
+46,Abu Jubaer,14,guide@tgab.org.bd,Bengali ,English
+47,Md.Yousuf Ali,14,guide@tgab.org.bd,Bengali ,English
+48,Shazzad Hossin Shawon,14,guide@tgab.org.bd,Bengali ,English
+49,Khan Saidur Rahman,14,guide@tgab.org.bd,Bengali ,English
+50,Azmir Hossain,14,guide@tgab.org.bd,Bengali ,English
+51,Sk. Mijan Uddin,14,guide@tgab.org.bd,Bengali ,English
+52,Md. Rakib Khan,14,guide@tgab.org.bd,Bengali ,English
+53,Md. Rezwan Khan,14,guide@tgab.org.bd,Bengali ,English
+54,Tanem Ahammed,14,guide@tgab.org.bd,Bengali ,English
+55,Md. Riazul Islam,14,guide@tgab.org.bd,Bengali ,English
+56,Md. Mizanur Rahman,14,guide@tgab.org.bd,Bengali ,English
+57,Kayesh Khan,14,guide@tgab.org.bd,Bengali ,English
+58,Ms. NUSRAT ZAHAN NIPA,14,guide@tgab.org.bd,BENGALI ,ENGLISH
+59,Shahreza Kabir,14,guide@tgab.org.bd,Bengali ,English
+60,Jawal Mustakin,14,guide@tgab.org.bd,Bengali ,English
+61,S.M. Maksudul Islam,14,guide@tgab.org.bd,Bengali ,English
+62,Bilkis Nurun Nahar Bithe,14,guide@tgab.org.bd,Bengali ,English
+63,Mintu Ratna,14,travelersaddtours@gmail.com,Bengali ,English
+64,Khaled Noor Rassel,14,guide@tgab.org.bd,Bengali ,English
+65,Manik Chand Rudra Paul,14,guide@tgab.org.bd,Bengali ,English
+66,Mst. Papia Sultana Ruzi,14,guide@tgab.org.bd,Bengali ,English
+67,Md. Jamal Hossain,14,guide@tgab.org.bd,Bengali ,English
+68,Abdullah Al Mamun,14,guide@tgab.org.bd,Bengali ,English
+69,H.R. Khan Zia,14,guide@tgab.org.bd,Bengali ,English
+70,Gautam Kumar Nath,14,guide@tgab.org.bd,Bengali ,English
+71,Ram Chandra Sarkar,14,guide@tgab.org.bd,Bengali ,English
+72,Mohammed Mokter Hossain,14,guide@tgab.org.bd,Bengali ,English
+73,Abdul Mannan Shobuj,14,guide@tgab.org.bd,Bengali ,English
+74,Syed Akhteruzzaman,14,guide@tgab.org.bd,Bengali ,English
+75,Mst. Khadiza Khanam,14,guide@tgab.org.bd,Bengali ,English
+76,Md. Raisul Islam Rabbay,14,guide@tgab.org.bd,Bengali ,English
+77,Md. Shohanur Rahman Swapan,14,guide@tgab.org.bd,Bengali ,English
+78,Faisal Saber Mahmud,14,guide@tgab.org.bd,Bengali ,English
+79,Shyamol Deb Borma,14,guide@tgab.org.bd,Bengali ,English
+80,Rezwanur Rahman,14,guide@tgab.org.bd,Bengali ,English
+81,Md. Shafir Rahman,14,guide@tgab.org.bd,Bengali ,English
+82,Roni Roy,14,guide@tgab.org.bd,Bengali ,English
+83,Md. Anamul Haque,14,guide@tgab.org.bd,Bengali ,English
+84,Kazi Ashikur Rahman Sujan,14,guide@tgab.org.bd,Bengali ,English
+85,Kazi Akikur Rahman Shuvro,14,guide@tgab.org.bd,Bengali ,English
+86,Md. Rafiqul Islam,14,guide@tgab.org.bd,Bengali ,English
+87,Khusbu Khalil Mimi,14,guide@tgab.org.bd,Bengali ,English
+88,Mst. Barna Khatun,14,guide@tgab.org.bd,Bengali ,English
+89,Samsun Naher Sakhi,14,guide@tgab.org.bd,Bengali ,English
+90,Syed Siyam Mahbub,14,guide@tgab.org.bd,Bengali ,English
+91,Md. Mofijul Islam,14,guide@tgab.org.bd,Bengali ,English
+92,Saiful Islam,14,guide@tgab.org.bd,Bengali ,English
+93,Mehrab Hossain,14,guide@tgab.org.bd,Bengali ,English
+94,Syed Maniruzzaman,14,guide@tgab.org.bd,Bengali ,English
+95,Md. Habibur Rahman,14,guide@tgab.org.bd,Bengali ,English
+96,Md. Misba Ur Rahman,14,guide@tgab.org.bd,Bengali ,English
+97,Iftekher Alam Bhuiyan,14,guide@tgab.org.bd,Bengali ,English
+98,Ali Al Rahat,14,guide@tgab.org.bd,Bengali ,English
+99,Md. Ashekool Islam,14,guide@tgab.org.bd,Bengali ,English
+100,Md.Rafiqul Islam,14,guide@tgab.org.bd,Bengali ,English
+101,Md.Mizanur Rahman,14,guide@tgab.org.bd,Bengali ,English
+102,Mohammad Faruq Hossain,14,guide@tgab.org.bd,Bengali ,English
+103,Md. Shaed Imran,14,guide@tgab.org.bd,Bengali ,English
+104,Ashraful Haque Khadem,14,guide@tgab.org.bd,Bengali ,English
+105,Jannatul Islam,14,guide@tgab.org.bd,Bengali ,English
+106,Mohammad Saliqur Rahman,14,guide@tgab.org.bd,Bengali ,English
+107,Md. Kamran Ahmed,14,guide@tgab.org.bd,Bengali ,English
+108,Md. Al Amin,14,guide@tgab.org.bd,Bengali ,English
+109,Saimon Kabir,14,guide@tgab.org.bd,Bengali ,English
+110,Md.Wazed Ali,14,guide@tgab.org.bd,Bengali ,English
+111,Md.Shohel Masud,14,guide@tgab.org.bd,Bengali ,English
+112,Md.Akhter Hossain,14,guide@tgab.org.bd,Bengali ,English
+113,Badal Hossain,14,guide@tgab.org.bd,Bengali ,English
+114,Jahid Hossain,14,guide@tgab.org.bd,Bengali ,English
+115,Taposh Sharker,14,guide@tgab.org.bd,Bengali ,English
+116,Ms.Nupur Banerzee,14,guide@tgab.org.bd,Bengali ,English
+117,Ms.Nibola Akhter,14,guide@tgab.org.bd,Bengali ,English
+118,Md Nazrul Islam Bacchu,28,guide@tgab.org.bd,Bengali,English/Eco Tourism
+119,Nazmul Azam David,28,guide@tgab.org.bd,Bengali,English/Eco Tourism
+120,Faysal Arman Shupto,28,guide@tgab.org.bd,Bengali ,English
+121,Md.Mehedi Hasan,28,guide@tgab.org.bd,Bengali ,English
+122,K.M. Omar Faruk,28,guide@tgab.org.bd,Bengali ,English
+123,Miss. RAZIA SULTANA,28,guide@tgab.org.bd,BENGALI ,ENGLISH
+124,Swapan Debnath,28,guide@tgab.org.bd,Bengali ,English
+125,Md.Showajeb Hossain,28,guide@tgab.org.bd,Bengali ,English
+126,Nawaz Morshed,28,guide@tgab.org.bd,Bengali ,English
+127,Siam Babu,28,guide@tgab.org.bd,Bengali ,English
+128,Kanij Fatima Oishe,28,guide@tgab.org.bd,Bengali ,English
+129,Md. Shahidul Islam Shaheen,28,guide@tgab.org.bd,Bengali ,English
+130,Sha Jaman Khan (Popul),28,guide@tgab.org.bd,Bengali ,English
+131,Sk. Mizanur Rahman,28,guide@tgab.org.bd,Bengali ,English
+132,Susmita Saha,28,guide@tgab.org.bd,Bengali ,English

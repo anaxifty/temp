@@ -1,0 +1,193 @@
+place_id,name,district_id,type
+1,Shat Gambuj Mosque,1,Archaeological and Historical Tourism
+2,Khan Jahan Ali Mazar Sharif,1,Pilgrimage/Spiritual Tourism
+3,Chandra Mahal Eco Park,1,Eco-Tourism
+4,Nilgiri,2,Eco-Tourism
+5,Meghla Parjatan Complex,2,Eco-Tourism
+6,Shoilapropat,2,Eco-Tourism
+7,Kuakata sea beach,3,Beach Tourism
+8,Fatrar Bon /Fatrar char,3,Eco-Tourism
+9,Taltoli Buddhist Monastery,3,Pilgrimage/Spiritual Tourism
+10,Guthia Baitul Aman Jam-e-Mosque,4,Pilgrimage/Spiritual Tourism
+11,Barishal Divisional Museum,4,Archaeological and Historical Tourism
+12,Durga Sagar Dighi,4,Eco-Tourism
+13,Char Kukri Mukri Wildlife Sanctuary,5,Eco-Tourism
+14,Monpura,5,Beach Tourism
+15,Shahbajpur Tourist Spot,5,Other
+16,Mahasthangarh,6,Archaeological and Historical Tourism
+17,Mohastangor Museum,6,Pilgrimage/Spiritual Tourism
+18,Bogra Nawab Palace,6,Archaeological and Historical Tourism
+19,Somapura MahaBhihara,41,Archaeological and Historical Tourism
+20,Kherua Mosque,6,Archaeological and Historical Tourism
+21,Sarail Jame Mosque (Arifail Sahi Masjid),7,Pilgrimage/Spiritual Tourism
+22,Kal Bhairab Temple,7,Pilgrimage/Spiritual Tourism
+23,Kallapathor Martyr-Burial Ground,7,Archaeological and Historical Tourism
+24,Chandpur Launch Terminal,8,Riverine Tourism
+25,Lohagorh Moth,8,Archaeological and Historical Tourism
+26,Shahrasti (R) Mazar,8,Pilgrimage/Spiritual Tourism
+27,Choto sona Mosque,9,Pilgrimage/Spiritual Tourism
+28,Borogoria Mango Orchard,9,Gastro
+29,Darasbari Mosque and madarasha.,9,Pilgrimage/Spiritual Tourism
+30,Patenga Sea Beach,10,Beach Tourism
+31,Foys Lake,10,Eco-Tourism
+32,Ethnological Museum,10,Archaeological and Historical Tourism
+33,Meherunnesa Shishu Park,11,Other
+34,Shishu Shorgo Park,11,Other
+35,Alamdanga Boddhovumi,11,Archaeological and Historical Tourism
+36,Cox's Bazar sea beach,12,Beach Tourism
+37,Himchari National Park,12,Eco-Tourism
+38,Saint Martin Island,12,Beach Tourism
+39,Shalbon Bihar,13,Archaeological and Historical Tourism
+40,Mainamati War Cemetery,13,Other
+41,Lalmai Forest,13,Eco-Tourism
+42,Ahsan Manzil,14,Archaeological and Historical Tourism
+43,Lalbag Kella,14,Archaeological and Historical Tourism
+44,Bangladesh National Zoo,14,Other
+45,Kantajew Temple,15,Pilgrimage/Spiritual Tourism
+46,Ramsagar,15,Eco-Tourism
+47,Shopnopuri Artificial Amusement Park,15,Adventure and Sports Tourism
+48,Poet Jasimuddin Museum / House,16,Other
+49,River Institute,16,Other
+50,Faridpur Poura Sheikh Rasel Shishu Park,16,Other
+51,Bijoy Singh Dighi,17,Eco-Tourism
+52,Chand Gazi Bhuiyan Mosque (Pakka Mosque),17,Pilgrimage/Spiritual Tourism
+53,Sharshadi Shahi Mosque,17,Pilgrimage/Spiritual Tourism
+54,Dreamland Park,18,Other
+55,Fulchuri Travels & Tours,18,Other
+56,Shah Sultan Gazi Jame Masjid,18,Pilgrimage/Spiritual Tourism
+57,Bangabandhu Sheikh Mujib Safari Park,19,Eco-Tourism
+58,Nuhash Polli,19,Other
+59,Bhawal National Park,19,Eco-Tourism
+60,The Mausoleum of Bangabandhu Sheikh Mujibur Rahman,20,Other
+61,Bongobondhu adi bari,20,Other
+62,71 er Boddho Bhumi,20,Archaeological and Historical Tourism
+63,Remakri Falls,21,Adventure and Sports Tourism
+64,Satchari National Park,21,Eco-Tourism
+65,Shankarpasha shahi mosque,21,Archaeological and Historical Tourism
+66,Luis Village Park & Resort,22,Other
+67,Gandhi Ashram and Fredom Struggle Museum,22,Other
+68,Bakshiganj Bazar,22,Rural Tourism
+69,Jess Garden Park,23,Other
+70,Benapole Land Port,23,Other
+71,Michael Madhusudan Dutta Memorial House,23,Archaeological and Historical Tourism
+72,Jhalokati City Park,24,Other
+73,Kabi Kamini Roy House,24,Archaeological and Historical Tourism
+74,Kirtipasha Zamindar House,24,Archaeological and Historical Tourism
+75,Johan Dream Valley Park & Resort,25,Other
+76,Gorar Mosque,25,Archaeological and Historical Tourism
+77,Hazar Duari Zamindar Bari,25,Archaeological and Historical Tourism
+78,Altadighi National Park,26,Eco-Tourism
+79,Hinda Kosba Shahi Mosque,26,Pilgrimage/Spiritual Tourism
+80,Shahid Sagar,26,Pilgrimage/Spiritual Tourism
+81,Alutila Tourist Park,27,Eco-Tourism
+82,Richang waterfall,27,Eco-Tourism
+83,Khagrachari Horticultural Park,27,Eco-Tourism
+84,Sundarbans,28,Eco-Tourism
+85,Singair Mosque,28,Archaeological and Historical Tourism
+86,Rupsha bridge river front,28,Riverine Tourism
+87,Isha Khan's Jangalbari Fort,29,Archaeological and Historical Tourism
+88,Sholakia Eidgah Maidan,29,Pilgrimage/Spiritual Tourism
+89,Egarosindur Fort,29,Archaeological and Historical Tourism
+90,Chilmari River Port,30,Riverine Tourism
+91,North Bengal Museum,30,Other
+92,Vaoaiya Academy & Museum,30,Ethno Tourism
+93,Tagore Lodge,31,Archaeological and Historical Tourism
+94,Shelaidaha Boat Ghat,31,Riverine Tourism
+95,Jhaudia Shahi Masjid,31,Archaeological and Historical Tourism
+96,Nijhum Dwip Beach,32,Beach Tourism
+97,Kamankhola Zamindar House,32,Archaeological and Historical Tourism
+98,Musapur Sea Beach,32,Riverine Tourism
+99,Teesta Barrage,33,Riverine Tourism
+100,Tushvandar Zamindar bBri,33,Archaeological and Historical Tourism
+101,Burimari Land Port,33,Other
+102,Madaripur Town Hall,34,Other
+103,Shakuni Lake,34,Other
+104,Shariatpur Sadar,34,Other
+105,Raja Sitaram Palace Dolmoncho,35,Archaeological and Historical Tourism
+106,Sreepur Jomider Bari,35,Archaeological and Historical Tourism
+107,Magura Sugar Mill,35,Other
+108,Baliati Palace,36,Archaeological and Historical Tourism
+109,Manikganj Sadar,36,Other
+110,Singair Upazila,36,Other
+111,Mujibnagar Memorial Complex,37,Archaeological and Historical Tourism
+112,Amjhupi Neelkuthi,37,Archaeological and Historical Tourism
+113,Meherpur Sadar,37,Other
+114,Madhabpur Lake,38,Eco-Tourism
+115,Lawachara National Park,38,Eco-Tourism
+116,Shitesh Babu's Zoo,38,Other
+117,Bajrajagini, Atish Dipankar Birth,39,Pilgrimage/Spiritual Tourism
+118,Idrakpur Fort,39,Archaeological and Historical Tourism
+119,Mawa Ferry Ghat,39,Riverine Tourism
+120,Brahmaputra River,40,Riverine Tourism
+121,Shashi Lodge,40,Pilgrimage/Spiritual Tourism
+122,Mymensingh Museum,40,Other
+123,Sompur Mahavihara,41,Pilgrimage/Spiritual Tourism
+124,Rabindro Kacharibari Museum,41,Archaeological and Historical Tourism
+125,Dubalhati Rajbari,41,Archaeological and Historical Tourism
+126,Chitra River,42,Riverine Tourism
+127,Arunima Resort Golf Club,42,Adventure and Sports Tourism
+128,Narail Sadar,42,Other
+129,Panam City,43,Archaeological and Historical Tourism
+130,Sonargaon Museum,43,Other
+131,Goaldi Mosque,43,Archaeological and Historical Tourism
+132,Wari Batesar,44,Archaeological and Historical Tourism
+133,Dream Holiday Park,44,Other
+134,Bir Shreshtha Matiur Rahman Memorial Museum,44,Archaeological and Historical Tourism
+135,Uttara Ganabhaban,45,Pilgrimage/Spiritual Tourism
+136,Natore Rajbari,45,Archaeological and Historical Tourism
+137,Chalanbil,45,Other
+138,Birishiri Cultural Academy,46,Archaeological and Historical Tourism
+139,Dingapota Haor,46,Eco-Tourism
+140,White clay Hillock,46,Pilgrimage/Spiritual Tourism
+141,Nilphamari Museum,47,Other
+142,Chini Mosque,47,Pilgrimage/Spiritual Tourism
+143,Saidpur Airport,47,Other
+144,Nijhum Dwip National Forest,48,Eco-Tourism
+145,Gandhi Ashram,48,Archaeological and Historical Tourism
+146,Bajra Shahi Mosque,48,Archaeological and Historical Tourism
+147,Ratnodweep Resort,49,Other
+148,Rana Eco-park and Picnic Spot,49,Eco-Tourism
+149,Pabna Mental Hospital,49,Health and Wellness Tourism
+150,Banglabandha Land port,50,Other
+151,Himalaya Fun Park,50,Other
+152,Tetulia Dak Bungalow and Kanchenjunga View,50,Other
+153,Kuakata Beach,51,Beach Tourism
+154,Fatrar Char,51,Eco-Tourism
+155,Misripara Buddhist Temple,51,Pilgrimage/Spiritual Tourism
+156,Bhandaria Shishu Park,52,Other
+157,Rayerkathi Zamindar House,52,Archaeological and Historical Tourism
+158,Pirojpur DC Park,52,Riverine Tourism
+159,Mathurapur Dewul,53,Archaeological and Historical Tourism
+160,Mir Mosharraf Hossain Memorial Center,53,Other
+161,Goalanda Ghat,53,Riverine Tourism
+162,Varendra Research Museum,54,Other
+163,Bagha Mosque,54,Pilgrimage/Spiritual Tourism
+164,Rainey Park,54,Other
+165,Shuvolong Falls,55,Eco-Tourism
+166,Kaptai Lake,55,Eco-Tourism
+167,Chakma Rajbari,55,Archaeological and Historical Tourism
+168,Tajhat Palace,56,Archaeological and Historical Tourism
+169,Vinnya Jagat Amusement Park,56,Other
+170,Rangpur Museum,56,Other
+171,Mozaffar Garden & Resort,57,Other
+172,Kalaroa,57,Other
+173,Satkhira,57,Other
+174,Modern Fantasy Kingdom,58,Other
+175,Burir Hat Zamindar Bari,58,Archaeological and Historical Tourism
+176,Shariatpur Sadar,58,Other
+177,Modhutila Eco Park,59,Eco-Tourism
+178,Garo Hills,59,Eco-Tourism
+179,Jhenaigati,59,Eco-Tourism
+180,Bangabandhu Eco-park,60,Eco-Tourism
+181,Rabindranath Tagore's Kacharibari,60,Archaeological and Historical Tourism
+182,China Dam,60,Other
+183,Tanguar Haor,61,Eco-Tourism
+184,Hason Raja Museum,61,Archaeological and Historical Tourism
+185,Shimul Bagan,61,Eco-Tourism
+186,Hazrat Shahjalal Mazar Sharif,62,Pilgrimage/Spiritual Tourism
+187,Jaflong,62,Riverine Tourism
+188,Ratargul Swamp Forest,62,Eco-Tourism
+189,Madhupur National Park,63,Eco-Tourism
+190,Atia Mosque,63,Pilgrimage/Spiritual Tourism
+191,Jamuna Bridge,63,Other
+192,Ramsagar National Park,15,Eco-Tourism

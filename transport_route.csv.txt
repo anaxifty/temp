@@ -1,0 +1,19 @@
+route_id,route_description,transport_type
+1,Dhaka (Saidabad) to Comilla,bus
+2,Dhaka (Saidabad) to Laksham,bus
+3,Dhaka (Saidabad) to Nabinagar,bus
+4,Dhaka (Saidabad) to Kishoreganj,bus
+5,Dhaka (Saidabad) to B-Baria,bus
+6,Dhaka (Mohakhali) to Tangail,bus
+7,Dhaka (Mohakhali) to Jamalpur,bus
+8,Dhaka (Mohakhali) to Mymensingh,bus
+9,Dhaka (Gabtoli) to Faridpur,bus
+10,Dhaka (Gabtoli) to Barisal,bus
+11,Dhaka (Gabtoli) to Khulna,bus
+12,Dhaka (Gabtoli) to Rajshahi,bus
+13,Dhaka (Gabtoli) to Bogra,bus
+14,Dhaka (Gabtoli) to Rangpur,bus
+15,Chattogram to Sylhet,bus
+16,Chattogram to Cox's Bazar,bus
+17,Barishal to Khulna,bus
+18,Dhaka to Cox's Bazar (via Mohakhali),bus

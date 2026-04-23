@@ -1,0 +1,73 @@
+route_id,district_id,stop_order,stoppage_name,route_description,transport_type
+1,14,1,Saidabad Bus Terminal,Dhaka (Saidabad) to Comilla,bus
+1,13,2,Comilla,Dhaka (Saidabad) to Comilla,bus
+2,14,1,Saidabad Bus Terminal,Dhaka (Saidabad) to Laksham,bus
+2,13,2,Comilla,Dhaka (Saidabad) to Laksham,bus
+2,13,3,Laksham,Dhaka (Saidabad) to Laksham,bus
+3,14,1,Saidabad Bus Terminal,Dhaka (Saidabad) to Nabinagar,bus
+3,13,2,Comilla,Dhaka (Saidabad) to Nabinagar,bus
+3,13,3,Chandina,Dhaka (Saidabad) to Nabinagar,bus
+3,13,4,Deviddar,Dhaka (Saidabad) to Nabinagar,bus
+3,7,5,Nabinagar,Dhaka (Saidabad) to Nabinagar,bus
+4,14,1,Saidabad Bus Terminal,Dhaka (Saidabad) to Kishoreganj,bus
+4,44,2,Narsingdi,Dhaka (Saidabad) to Kishoreganj,bus
+4,29,3,Bhairab,Dhaka (Saidabad) to Kishoreganj,bus
+4,29,4,Kishoreganj,Dhaka (Saidabad) to Kishoreganj,bus
+5,14,1,Saidabad Bus Terminal,Dhaka (Saidabad) to B-Baria,bus
+5,44,2,Narsingdi,Dhaka (Saidabad) to B-Baria,bus
+5,29,3,Bhairab,Dhaka (Saidabad) to B-Baria,bus
+5,7,4,B-Baria,Dhaka (Saidabad) to B-Baria,bus
+6,14,1,Mohakhali Bus Terminal,Dhaka (Mohakhali) to Tangail,bus
+6,19,2,Ashulia,Dhaka (Mohakhali) to Tangail,bus
+6,19,3,Kaliakair,Dhaka (Mohakhali) to Tangail,bus
+6,63,4,Tangail,Dhaka (Mohakhali) to Tangail,bus
+7,14,1,Mohakhali Bus Terminal,Dhaka (Mohakhali) to Jamalpur,bus
+7,63,2,Tangail,Dhaka (Mohakhali) to Jamalpur,bus
+7,63,3,Madhupur,Dhaka (Mohakhali) to Jamalpur,bus
+7,22,4,Jamalpur,Dhaka (Mohakhali) to Jamalpur,bus
+8,14,1,Mohakhali Bus Terminal,Dhaka (Mohakhali) to Mymensingh,bus
+8,40,2,Bhaluka,Dhaka (Mohakhali) to Mymensingh,bus
+8,40,3,Trishal,Dhaka (Mohakhali) to Mymensingh,bus
+8,40,4,Mymensingh,Dhaka (Mohakhali) to Mymensingh,bus
+9,14,1,Gabtoli,Dhaka (Gabtoli) to Faridpur,bus
+9,53,2,Paturia,Dhaka (Gabtoli) to Faridpur,bus
+9,16,3,Faridpur,Dhaka (Gabtoli) to Faridpur,bus
+10,14,1,Gabtoli,Dhaka (Gabtoli) to Barisal,bus
+10,53,2,Paturia,Dhaka (Gabtoli) to Barisal,bus
+10,16,3,Faridpur,Dhaka (Gabtoli) to Barisal,bus
+10,34,4,Madaripur,Dhaka (Gabtoli) to Barisal,bus
+10,4,5,Barisal,Dhaka (Gabtoli) to Barisal,bus
+11,14,1,Gabtoli,Dhaka (Gabtoli) to Khulna,bus
+11,53,2,Paturia,Dhaka (Gabtoli) to Khulna,bus
+11,16,3,Faridpur,Dhaka (Gabtoli) to Khulna,bus
+11,35,4,Magura,Dhaka (Gabtoli) to Khulna,bus
+11,23,5,Jashore,Dhaka (Gabtoli) to Khulna,bus
+11,28,6,Khulna,Dhaka (Gabtoli) to Khulna,bus
+12,14,1,Gabtoli,Dhaka (Gabtoli) to Rajshahi,bus
+12,19,2,Nabinagar,Dhaka (Gabtoli) to Rajshahi,bus
+12,19,3,Kaliakair,Dhaka (Gabtoli) to Rajshahi,bus
+12,63,4,Tangail,Dhaka (Gabtoli) to Rajshahi,bus
+12,49,5,Pabna,Dhaka (Gabtoli) to Rajshahi,bus
+12,45,6,Natore,Dhaka (Gabtoli) to Rajshahi,bus
+12,54,7,Rajshahi,Dhaka (Gabtoli) to Rajshahi,bus
+13,14,1,Gabtoli,Dhaka (Gabtoli) to Bogra,bus
+13,19,2,Nabinagar,Dhaka (Gabtoli) to Bogra,bus
+13,19,3,Kaliakair,Dhaka (Gabtoli) to Bogra,bus
+13,63,4,Tangail,Dhaka (Gabtoli) to Bogra,bus
+13,6,5,Bogra,Dhaka (Gabtoli) to Bogra,bus
+14,14,1,Gabtoli,Dhaka (Gabtoli) to Rangpur,bus
+14,19,2,Nabinagar,Dhaka (Gabtoli) to Rangpur,bus
+14,19,3,Kaliakair,Dhaka (Gabtoli) to Rangpur,bus
+14,63,4,Tangail,Dhaka (Gabtoli) to Rangpur,bus
+14,6,5,Bogra,Dhaka (Gabtoli) to Rangpur,bus
+14,56,6,Rangpur,Dhaka (Gabtoli) to Rangpur,bus
+15,10,1,Chattogram,Chattogram to Sylhet,bus
+15,62,2,Sylhet,Chattogram to Sylhet,bus
+16,10,1,Chattogram,Chattogram to Cox's Bazar,bus
+16,12,2,Cox's Bazar,Chattogram to Cox's Bazar,bus
+17,4,1,Barishal,Barishal to Khulna,bus
+17,28,2,Khulna,Barishal to Khulna,bus
+18,14,1,Dhaka (Kuril Bishwaroad),Dhaka to Cox's Bazar (via Mohakhali),bus
+18,13,2,Comilla,Dhaka to Cox's Bazar (via Mohakhali),bus
+18,10,3,Chattogram,Dhaka to Cox's Bazar (via Mohakhali),bus
+18,12,4,Cox's Bazar,Dhaka to Cox's Bazar (via Mohakhali),bus

@@ -1,0 +1,193 @@
+accommodation_id,district_id,accommodation_name,location_details,category,room_count,contact_no,place_id
+1,1,Dhanshiri Hotel,Bagerhat - Khulna Rd,Economy,14,01711-575095,1
+2,1,Hotel Wovi,Khanjahan Ali Mazar Road,Economy,24,01833-742623,2
+3,1,Sea Pearl sundorbon eco resort,Economy,60,01886-553333,1
+4,2,D'more,Lusai Bari,3 Star,45,01713-754502,4
+5,2,Ban Bilash Hill Resort,Sadar,Economy,20,01739090099,4
+6,2,Hotel Hill View,Sadar,Economy,90,01820400966,4
+7,3,Hotel Sea view,Amtoli road,Economy,17,,7
+8,3,Hotel Prince Tower,Sadar Road,Economy,10,1715275516,7
+9,3,Barguna Rest House,Ukil potti,Economy,25,1718588856,7
+10,4,Hotel Grand Park,Bandh Road,4 star,86,01713056368,11
+11,4,Hotel One International,Port Road,Economy,27,,11
+12,4,Hotel Athena International,Kathpatti road,Economy,35,1712261633,10
+13,5,Hotel Ali International,Charfassion sadar road,Economy,15,,14
+14,5,Monpura Hotel Inn.,Sadar Road,Economy,12,,14
+15,5,Bhola Rest House,,Economy,10,,14
+16,6,Momo inn,TMSS, Rangpur Road,5 Star,149,01755-669900,16
+17,6,Hotel Naz Garden,Silimpur, city bypass,4 Star,78,0 1755661199,16
+18,6,Siesta Hotel,Banani,3 Star,49,01707079144,16
+19,7,R.J Tower Hotel,Golchattor, Ashuganj,3 Star,130,1775159745,21
+20,7,Ahona International,New Ferryghat,3 Star,32,1711561158,21
+21,7,The Hotel Nowmi,Kautoli,Economy,110,1715111135,22
+22,8,Al Arafat Residential Hotel,Matlab Bazar,Economy,40,,24
+23,8,Rajanigondha,Comilla Road,Economy,30,18171022830,24
+24,8,Sundorban Residential Hotel,Baro Station,Economy,45,,24
+25,9,Alauddin hotel and restaurent,Noyagola Mor,Economy,32,1789349390,27
+26,9,Shorifa Hotel,Kansat Bazar,Economy,48,1761741130,27
+27,9,Four Star hotel and Restaurent,Adda Bazar,Economy,60,1749677717,27
+28,10,The Peninsula Chittagong,486/B, OR Nizam Road, GEC,5 Star,102,01755556766,30
+29,10,Hotel Agrabad,1070, Sadarghat Road, Agrabad,5 Star,100,09611671717,30
+30,10,Hotel Saint Martin,38, Kazir Deuri, Kotwali,3 Star,30,,30
+31,11,Dream Garden,Boro Bajar,Economy,29,1720531551,35
+32,11,Hotel VIP,Abul Kashem Sorok,Economy,32,1711366102,35
+33,11,Hotel shahid Palace,Abul Kashem Sorok,Economy,48,1711194493,35
+34,12,Hotel The Cox Today,Kolatoli road, cox's bazar,5 Star,270,01755598450,36
+35,12,Hotel Long Beach,14, Kolatoli, Hotel Motel Zone,5 Star,1040,01755-660051,36
+36,12,Sayeman Beach Resort,Marine Drive, Kolatoli,5 Star,245,014017778884,36
+37,13,Hotel Noor Mahal,Ramnagar Road,Economy,38,01716326050,39
+38,13,Hotel Jannat International,Baropara, Laksam Road,Economy,28,01819201155,39
+39,13,Shampa Residential Hotel,Tomsom Bridge,Economy,25,01818872980,39
+40,14,Hotel Sarina,27, Banani C/A, Road No. 17,5 Star,98,01755566400,42
+41,14,Pan Pacific Sonargaon Dhaka,107 Kazi Nazrul Islam Avenue,5 Star,276,02-8140400,42
+42,14,InterContinental Dhaka,1 Minto Road,5 Star,226,02-8330001,43
+43,15,Hotel Sultan,Munshipara road,3 Star,18,,45
+44,15,Roots eco home,,3 Star,23,,46
+45,15,Hotel Concord Abasik,Goneshtola,Economy,17,1738593466,45
+46,16,Parjatan Motel,Ferry Ghat,Economy,30,,48
+47,16,Hotel Shobuj Bari,Alipur,Economy,15,,48
+48,16,Hotel Shapla,Mujib Sarak,Economy,15,,48
+49,17,Hotel Noor Jahan,SSK Road,3 Star,35,01711369028,52
+50,17,Hotel Ashkon,Trunk Road,Economy,30,,51
+51,17,Hotel Shuktara,Mohipal,Economy,12,,52
+52,18,Hotel Mitali,Station Road,Economy,25,,56
+53,18,Hotel Al-Razi,Bus Stand Road,Economy,20,,56
+54,18,Hotel Neelanjona,Bus Stand Road,Economy,18,,56
+55,19,Dhaka Resort Ltd.,Kaliyakor, Gazipur,Economy,21,,57
+56,19,Sarah Resort Ltd.,Chinashukiya, Vawal Rajbari, Sripur, Gazipur,4 Star,96,01980003000,57
+57,19,Bhawal Resort & Spa,Mirzapur, Gazipur,4 Star,61,01871004007,59
+58,20,Hotel Zimmy Residential,DC Road,Economy,44,,60
+59,20,Hotel Shimul,Bangabondhu Sorok,Economy,24,1944780980,60
+60,20,Modhumoti hotel (BPC),Pourashova,Economy,22,06655-56349,60
+61,21,Hotel Amad Residential,Badiuzzaman Road,Economy,42,,63
+62,21,The Palace,Putijuri, Bahubal,5 Star,129,01910001000,63
+63,21,Hotel Alif,Economy,30,1720923853,64
+64,22,Hotel Shamol Bangla,Economy,18,1917984347,66
+65,22,Grand Delower,Economy,32,1723230002,66
+66,22,Hotel Shetuly International,Economy,18,1711681836,66
+67,23,Hotel Monihar,Puraton Kendriyo Bus Terminal,Sadar,Jashore,Economy,42,,71
+68,23,Hotel Midway,Puraton Kendriyo Bus Terminal,Sadar,Jashore,Economy,15,01911-833277,71
+69,23,Hotel Hasan International,15 No Keshobla Shorok,Sadar,Jashore,Economy,48,,71
+70,24,Hotel Rajani,Club More, Pirojpur,Economy,24,1712562241,73
+71,24,Hotel Relax,Hospital Road,Economy,25,46162807,73
+72,24,Hotel Chayanir,Bazar Road, Pirojpur,Economy,14,46162381,73
+73,25,Hotel Al Amin,Sadar,Economy,25,01712439568,75
+74,25,Hotel New Sonargaon,Sadar,Economy,20,,75
+75,25,Hotel Nondan,Sadar,Economy,30,01711977660,76
+76,26,Hotel Taz,College Road,Economy,27,1725735107,78
+77,26,Hotel Prithibi,Sadar Road,Economy,36,1712806667,78
+78,26,Hotel Sa'ad International,1 No. Station Road,Economy,17,1756511314,78
+79,27,Hotel Shail Subarna,,Khagrachhari Bazar,Economy,20,181568984,81
+80,27,The color resort,,Coconut,Economy,22,1828940133,81
+81,27,Forest luxury hotel,,,Economy,30,1783969262,81
+82,28,Hotel Ajmol International,37 Sir Iqbal Road,Economy,22,,84
+83,28,Hotel Tiger Garden,1 KDA Avenue,3 Star,41,,84
+84,28,The Grand Placid,4/5, Sher-E-Bangla Rd,4 star,60,,84
+85,29,Present Resort,,3 Star,40,,87
+86,29,Hotel Firoj,Station Road,Kishoreganj,Economy,25,1681297760,87
+87,29,Hotel Al Mobarak,Puranthana,Kishoreganj,Economy,70,1734024596,87
+88,30,RDRS Bangladesh,,Economy,15,,92
+89,30,Hotel Ornob Palace,Bus Station Road terminal,Economy,30,,92
+90,30,Hotel Smriti,Central Bus Terminal,Economy,32,1719028411,92
+91,31,Hotel Noor International,,Economy,27,,93
+92,31,Hotel Holiday International,Khan Bahadur Samsujjoha road,Economy,28,,93
+93,31,Hotel Ratul Abashik,Economy,37,,95
+94,32,Sonar Bangla,Economy,22,,96
+95,32,Hotel Bishwanath,Economy,20,,96
+96,32,Hotel Alif,Economy,18,,96
+97,33,Shimanto Abashik Hotel,Economy,32,,99
+98,33,North Bengle,Economy,33,,99
+99,33,Hotel Every day,Burimari Port,Economy,18,1716077432,101
+100,34,Hotel Sarbik,College Gate road,3 Star,23,,103
+101,34,Hotel Mohona,Puran Bazar,Economy,25,,103
+102,34,Hotel Prince,Bus Stand Road,Economy,20,,103
+103,35,Green palace guest house,,Economy,11,,105
+104,35,Hotel Podma Garden,Vaina Mor,Economy,14,,105
+105,35,Hotel Al Shad Residential,Dhaka Road,Economy,23,,106
+106,36,Boikal Abasik Boarding,,Economy,20,1711204981,108
+107,36,Central Park Abasik Hotel,,Economy,23,1713524363,108
+108,36,Manikganj Abasik Boarding,,Economy,25,1719868057,108
+109,37,Samad Hotel,Gangni Bazar,Economy,24,1727629898,111
+110,37,Sobhan Hotel,Gangni Bazar,Economy,24,1772932937,111
+111,37,Arob Hotel,Jorpukuria Gangni,Economy,20,,111
+112,38,Hotel Sonar Bangla (Residential),Economy,22,,115
+113,38,Green Park,Economy,21,,115
+114,38,Grand Selim,Ram Nagar, Monipuripara,Economy,28,01678173185,115
+115,39,Mawa Resort,Lohajang, Munshigoni, Dhaka, Bangladesh,Economy,25,,119
+116,39,MJ Holiday Resort,Ichapura, Sirajdi Khan,Economy,21,1931410070,119
+117,39,Mehgna Village Holiday Resort,Baluakandi, Gazaria,Economy,20,01718471961,119
+118,40,Hotel Amir International,1, 3/A Station Road, Mymensingh,Economy,32,1711167948,122
+119,40,Hotel Mostafiz International,1/B Gangadas Guhrode, West on the Fire Service, Mymensingh.,Economy,61,1552470700,122
+120,40,River Palace,1, Taltala Doldia, Khagadhar, Mymensingh.,Economy,10,1710857054,120
+121,41,Hotel Nil Sagor,,Economy,31,1748555000,123
+122,41,Naogaon Rest House,,Economy,15,1729842344,123
+123,41,Mesars Hotel Plabon,,Economy,36,1711825682,123
+124,42,Narail Model Guest House,Hospital Road,Economy,24,,126
+125,42,Chitra resort,,Economy,16,,126
+126,42,Hotel chitra residential and conference,,Economy,15,,126
+127,43,Sonarga Abashik,Tarminal road,Economy,23,,129
+128,43,Meghbari Resort,Rayerdia, Ulukhola Road,3 Star,33,01713-265869,129
+129,43,Sonargaon Royal Resort,Sonargaon Road,4 Star,119,01709-371680,129
+130,44,Hotel Saima(Abashik),,Economy,25,1923969415,132
+131,44,Hotel Relax(Abashik),,Economy,20,1716343057,132
+132,44,Hotel Obokash(Abashik),,Economy,24,1713514003,132
+133,45,Millat Hotel Residential,Madrasha Mor,Economy,18,,136
+134,45,Hotel R.P,Kanaikhali,Economy,26,1726433428,136
+135,45,Natore Boding,Nichabazar,Economy,100,1770639416,136
+136,46,Sopnopuri Resort, & picnic spot,,Economy,15,,138
+137,46,Y.M.C.A Birishiri,Durgapur,Netrokona,Economy,45,1715011660,138
+138,46,Hotel Shapla,Station Road ,Mohonganj,Netrokona,Economy,47,1712137659,138
+139,47,HOTEI ABOKASH,,Economy,20,,142
+140,47,Eco Heritage Hotels & Resort,New babupara,Economy,20,,142
+141,47,Al Modina Hotel,Chourangi More,Economy,50,01731582772,142
+142,48,Hotel Raj Bilash,DB Road,Economy,14,,144
+143,48,Nice Guest House,Showkatali,Economy,40,,144
+144,48,Hotel Sohara,Tomaroddi Road,Economy,14,,144
+145,49,Chayanir abasik hotel,Rupkotha road,Economy,26,,148
+146,49,Ratnodweep Resort,,5 Star,46,,147
+147,49,Rupkotha Eco Resort,BanglaBazar,Dokkhin Ramchondropur,Pabna,Economy,24,1711549801,148
+148,50,Hotel H K Palace,,Economy,25,,152
+149,50,Hotel Dhanshiri Residential,Jalashi road,Economy,20,,152
+150,50,Mouchak Hotel,Tetulia Road,Economy,35,,152
+151,51,Hotel Sea Tour Palace,Kaukata main road,Economy,35,,153
+152,51,Cindrealla Town Ltd,Kuakata,Economy,20,01711544777,153
+153,51,Kuakata Porjoton Motel,Zero Point,Economy,76,01732091599,153
+154,52,Hotel Rajani,Club More, Pirojpur,Economy,24,1712562241,157
+155,52,Hotel Relax,Hospital Road,Economy,25,46162807,157
+156,52,Hotel Chayanir,Bazar Road, Pirojpur,Economy,14,46162381,157
+157,53,Hotel Nazma,,Economy,35,1724651234,159
+158,53,Centon Chinese Restaurant,,Economy,25,1735474353,159
+159,53,Palki Restaurent and Restaurant,,Economy,35,1872173482,159
+160,54,Porzoton Hotel,Shilpokola road,Economy,50,1721775237,163
+161,54,Grand River view,232, Kazihata,4 Star,105,01877-766966,163
+162,54,Royal Raj Hotel,Gonokpara, Boalia,4 star,87,01321231755,163
+163,55,Hotel Moti Mahal,,Economy,24,,165
+164,55,Polwel park resort,DC Banglo Road,Economy,17,,165
+165,55,Niladri Resort,,3 Star,15,,165
+166,56,Hotel North View,,3 Star,60,,168
+167,56,Parjatan Motel Rangpur,RK road,3 Star,38,01991139017,168
+168,56,Grand Palace Hotel and Resort,G L Rai Road,Jahaj Company Mor,4 Star,51,1755512600,168
+169,57,Uttora Hotel (Abashik),,Economy,24,,172
+170,57,Hotel Tiger plus,Tufan company mor,3 Star,38,,172
+171,57,Tufan Resort,,Economy,10,1714493929,172
+172,58,Parjatan Motel,Shariatpur,Economy,20,,176
+173,58,Hotel Al-Amin,Shariatpur,Economy,18,,176
+174,58,Hotel Sonar Bangla,Shariatpur,Economy,15,,176
+175,59,Mayer Doa,Paiska,Economy,30,1949849146,177
+176,59,Hotel Al Amin,Nalitabari,Economy,25,,177
+177,59,Hotel Sonargaon,Sherpur,Economy,30,,177
+178,60,Hotel Jalil,Bazar Station Road,Economy,50,,180
+179,60,Bashundhara Hotel And Restaurant,S. N. Road,Economy,40,,180
+180,60,The Aristocrat,Hatikumrul,Economy,160,,180
+181,61,Al-Amin Hotel,Sunamganj,Economy,30,,183
+182,61,Hotel Sonargaon,Sunamganj,Economy,25,,183
+183,61,Rupali Restaurant,Sunamganj,Economy,20,,183
+184,62,Hotel Valley Garden,Sylhet Tower, Sobhani Ghat,Economy,40,01938-844500,186
+185,62,Nazimgarh Garden Resort,Khadim Nagar, Sylhet.,3 Star,35,01712027766,186
+186,62,Rose View Hotel,,4 Star,140,01972787878,186
+187,63,Elenga resort,Tangail modhupur highway,3 Star,50,,189
+188,63,Bangabandhu Bridge Resort,Tangail-Vuwapur road,3 Star,28,,191
+189,63,Silikon,Main sadar Road,Economy,100,1911105020,189
+190,64,Prime Hotel,North Circular Road,Economy,40,01941-054257,152
+191,64,Hotel Address Inn,Mohammad Ali Rd,3 Star,250,1970-007940,152
+192,64,Central Guest House,Central plaza,Economy,53,,152
